@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verify user dell signout",
+        "description": "",
+        "id": "this-is-dell-signin-functionality;verify-user-dell-signout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2398308200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Launch bool \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "signupbool.launch_bool(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9938725300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on dell sigininlink",
+            "match": {
+              "location": "dellsignin.click_on_dell_sigininlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18485934800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Fill out dell signin credentials and click signin button",
+            "match": {
+              "location": "dellsignin.fill_out_dell_signin_credentials_and_clicl_signin_buttons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13073282600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click singout button",
+            "match": {
+              "location": "dellsignout.user_click_singout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2123667400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify user dell signout",
+            "match": {
+              "location": "dellsignout.verify_user_dell_signout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@ras"
+          }
+        ]
+      }
+    ],
+    "name": "This is dell signin functionality",
+    "description": "",
+    "id": "this-is-dell-signin-functionality",
+    "keyword": "Feature",
+    "uri": "dellsignin.feature"
+  }
+]
